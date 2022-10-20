@@ -1,0 +1,68 @@
+body {
+  background-color: #f7f2ec;
+  overflow-x: hidden;
+}
+section {
+  height: 100vh;
+}
+.firstname {
+  top: 42%;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: #f7f2ec;
+}
+h1 {
+  font-family: "InterSemiBold";
+  font-size: 128px;
+}
+p {
+  font-family: "InterRegular";
+  font-size: 24px;
+  line-height: 140%;
+  color: #f7f2ec;
+}
+.menuleft {
+  display: flex;
+  left: 4%;
+  top: 4%;
+  position: absolute;
+}
+.menuright {
+  display: flex;
+  right: 6%;
+  top: 4%;
+  position: absolute;
+}
+h2 {
+  font-family: "InterSemiBold";
+  font-size: 24px;
+  line-height: 121%;
+}
+.promo {
+  padding-right: 20%;
+  color: #231f1c;
+}
+.about {
+  color: #f96247;
+  width: 9em;
+}
+.vk {
+  color: #231f1c;
+  padding-right: 15%;
+}
+.tg {
+  color: #231f1c;
+}
+.firstfigure {
+  position: absolute;
+  top: 15%;
+}
+.firsttext {
+  color: #231f1c;
+}
+.redtext {
+  color: #f96247;
+}
+.abouttext {
+}

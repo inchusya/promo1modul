@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "InterRegular";
+  src: url("../Font/Inter-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "InterSemiBold";
+  src: url("../Font/Inter-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "InterMedium";
+  src: url("../Font/Inter-Medium.ttf") format("truetype");
+}
