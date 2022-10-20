@@ -4,6 +4,7 @@ body {
 }
 section {
   height: 100vh;
+  margin: 0;
 }
 .firstname {
   top: 42%;
@@ -15,6 +16,21 @@ section {
 h1 {
   font-family: "InterSemiBold";
   font-size: 128px;
+}
+h2 {
+  font-family: "InterSemiBold";
+  font-size: 24px;
+  line-height: 121%;
+}
+h3 {
+  font-family: "InterSemiBold";
+  font-size: 64px;
+  line-height: 95%;
+}
+h4 {
+  font-family: "InterSemiBold";
+  font-size: 48px;
+  line-height: 121%;
 }
 p {
   font-family: "InterRegular";
@@ -34,11 +50,7 @@ p {
   top: 4%;
   position: absolute;
 }
-h2 {
-  font-family: "InterSemiBold";
-  font-size: 24px;
-  line-height: 121%;
-}
+
 .promo {
   padding-right: 20%;
   color: #231f1c;
@@ -58,6 +70,9 @@ h2 {
   position: absolute;
   top: 15%;
 }
+.firstfigureimg {
+  width: 100vw;
+}
 .firsttext {
   color: #231f1c;
 }
@@ -65,7 +80,87 @@ h2 {
   color: #f96247;
 }
 .abouttext {
+  padding-top: 15%;
+  margin-left: 4%;
   width: 555px;
 }
 .firstimg {
+  width: 100%;
+  text-align: right;
+  margin-top: -30%;
+  position: absolute;
+}
+.secondfigure {
+  margin-top: -10%;
+}
+.secondfigureimg {
+  width: 100vw;
+}
+.texttriple {
+  margin-top: -40%;
+  display: flex;
+  justify-content: space-around;
+}
+.textread {
+  color: #f7f2ec;
+  text-align: center;
+}
+.thirdfigure {
+  margin-top: 18%;
+  padding-top: 10%;
+  text-align: center;
+}
+.alarmtext {
+  text-align: center;
+  position: relative;
+  margin-top: -26%;
+  margin-left: 0%;
+  color: #f7f2ec;
+  z-index: 1;
+}
+.alarmsmall {
+  margin-top: 2%;
+}
+.thirdfigureimg {
+  width: 74vw;
+}
+.allfoot {
+  margin-top: 17%;
+  position: relative;
+  width: 100%;
+}
+
+.forthfigureimg {
+  position: absolute;
+  width: 3%;
+  top: 75%;
+  left: 3%;
+}
+.footername {
+  position: absolute;
+  right: 3%;
+  top: 80%;
+  text-align: right;
+  color: #f96247;
+}
+#email {
+  color: #f96247;
+  padding: 5px 25px;
+  margin-top: 2%;
+  width: 26vw;
+  height: 5vh;
+  font-size: 16px;
+  border: none;
+  border-radius: 66px;
+  background-color: #f7f2ec;
+  cursor: pointer;
+  text-decoration: none;
+}
+#emailb {
+  margin-left: -9%;
+  color: #f96247;
+  font-size: 16px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
 }
